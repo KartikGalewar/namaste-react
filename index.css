@@ -1,3 +1,47 @@
 #container {
     background-color: skyblue;
 }
+
+.cls-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+.cls-nav-bar img{
+    height: 100px;
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul > li {
+    padding: 20px;
+}
+
+.cls-restrau-cards{
+    margin: 20px;
+    width: 300px;
+    border: 3px solid black;
+}
+
+.cls-restrau-cards img{
+    width: 100%;
+}
+
+.cls-prod-name {
+    padding: 10px;
+}
+
+.cls-prod-cuisines {
+    padding: 10px;
+}
+
+.cls-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
